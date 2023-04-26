@@ -1,0 +1,18 @@
+.card{
+    margin: 100px 100px;
+    width: 150px;
+    height: 200px;
+    background: url(../img/nature-background-images-for-picsart-editing-11657445937ymwjpsx05x.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    transform: rotate(20deg) skew(-10deg, -5deg);
+    transition: translate 0.25s, box-shadow 0.25s;
+}
+.card:hover{
+    translate: 0 -30px;
+    box-shadow: 
+        5px 3px rgb(197, 191, 191),
+        10px 6px rgb(168, 27, 27),
+        15px 9px rebeccapurple;
+        
+}
